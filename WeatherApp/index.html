@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styling/style.css">
+        <link rel="stylesheet" href="./styling/mediascreen.css">
+        <link rel="shortcut icon" type="img/png" href="./favicon/img_6763.png">
+    <title>Weather App</title>
+</head>
+<body id="body-bg">
+    <nav class="nav-bar">
+        <div class="nav-start">
+            <ul>
+                <li>
+                    <input type="text" name="" id="city_name" class="nav-bar-searchbar" 
+                    placeholder="Type in your city here..." contenteditable="true">
+                </li>
+                <li>
+                    <div class="btn">
+                        <button class="navbar-btn" onclick="getWeatherData()">
+                            <i class="fas fa-star"></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-end">
+            <h4 class="navbar-text">
+                Weather Forecast!
+            </h4>
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <div class="weather">
+            <div class="weather-1">
+                <div class="future-forecast" id="turn-white">
+                    <h5 id="turn-white">Tomorrow</h5>
+                    <h3 id="tomorrow-temp" style="margin-top: 5px;"></h3>
+                    <h5 id="tomorrow-condition" style="margin-top: 10px; display: flex;"></h5>
+                </div>
+
+                <div class="dat-forecast" id="turn-white3">
+                    <h5>The day after tomorrow</h5>
+                    <h3 id="dat-temp" style="margin-top: 5px;"></h3>
+                    <h5 id="dat-condition" style="display: flex; margin-top: 10px;"></h5>
+                </div>
+            </div>
+            
+            <div class="weather-2">
+                <div class="forecast" id="turn-white2">
+                    <h5 style="text-align: left;" id="current-city"></h5>
+                    <h1 style="font-size: 140px; text-align: center;" id="current-temp"></h1>
+                    <h5 id="current-condition" style="margin-top: 10px; display: flex;"></h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+    <script src="https://kit.fontawesome.com/ae634c549b.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

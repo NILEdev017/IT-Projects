@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Signika+Negative:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+#body-bg{
+    background-image: url('../images/pexels-eberhard-grossgasteiger-844297.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.nav-bar{
+    height: 8vh;
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-start{
+    margin-left: 15px;
+}
+.nav-end{
+    margin-right: 15px;
+}
+.navbar-text{
+    font-size: 30px;
+    font-family: "Signika Negative";
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar ul li{
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.555);
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-bar-searchbar{
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 9px;
+    border-radius: 4px;
+}
+[contenteditable] {
+    outline: 0px solid transparent;
+  }
+.navbar-btn{
+    padding: 11px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.151);
+    border-radius: 50px;
+    background-color: #ff724fe0;
+    transition: 300ms;
+    transition-timing-function: ease-out;
+}
+.navbar-btn:hover{
+    transform: rotate(720deg);
+    background-color: #68d629;
+    border-color: rgba(31, 252, 252, 0.87);
+    animation: animate 8s linear infinite;
+    transition: 100ms;
+    transition-timing-function: ease-out;
+}
+@keyframes animate{
+    50%{
+        filter: hue-rotate(360deg); 
+    }
+}
+.navbar-btn-text:hover{
+    transform: rotate(0deg);
+    transition: 0.3s ease-out;
+}
+
+
+.main {
+    height: 82vh;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.weather-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 10vw;
+    font-family: "Arimo";
+}
+.weather-2{
+    margin-top: -2vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Arimo";
+}
+.dat-forecast{
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    transition: 0.2s ease-in;
+}
+.dat-forecast:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+.forecast{
+    height: 50vh;
+    width: 63vw;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 70px;
+    transition: 0.2s ease-in;
+}
+.forecast:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+.future-forecast{
+    /* background-color: orange; */
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    transition: 0.2s ease-in;
+}
+.future-forecast:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+#dat-temp #tomorrow-temp{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+footer{
+    height: 4vh;
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.144);
+}
