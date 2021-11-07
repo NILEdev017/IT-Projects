@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="the-nav">
+      <div class="container">
+          <a href="#" class="nav-start"><span><i class="fab fa-d-and-d a-icon"></i></span></a>
+  
+          <div class="nav-middle">
+            <ul class="nav-list">
+              <li><a href="#" class="nav-link px-2 text-black list-text">Features</a></li>
+              <li><a href="#" class="nav-link px-2 text-black list-text">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 text-black list-text">About</a></li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-danger nav-btn">Login</button>
+      </div>
+  </header>
+
+  
+<div class="main-body">
+  <div class="main-body-text">
+    <p style="margin-bottom: 0; color: lightcoral;">Bootstrap-designed Website</p>
+    <h1 style="width: 47vw; font-size: 86px;"> 
+      Assignment No. 7, Done Using Bootstrap. <i class="fab fa-first-order-alt c-icon"></i></h1>
+    <p style="font-size: 20px; color: lightcoral;">To sign-up for free food, fill in the form below!</p>
+  </div>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="pexels-jonathan-borba-2983098.jpg" class="" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="pexels-jonathan-borba-2983101 (1).jpg" class="" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pexels-valeria-boltneva-1893557.jpg" class="" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</div>
+
+<h1 class="text-muted form-text-1">Fill the Form.</h1>
+
+<div class="middle-body">
+  
+  <div class="forms">
+      <form>
+          <div class="mb-3">
+              <label for="Name1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="Name1">
+            </div>
+            
+          <div class="divider"></div>
+  
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+  
+          <div class="divider"></div>
+  
+          <div class="age-and-gender">
+                  <div class="mb-3">
+                      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                          <option selected>18</option>
+                          <option value="1">19</option>
+                          <option value="2">20</option>
+                          <option value="3">21</option>
+                          <option value="4">22</option>
+                          <option value="5">23</option>
+                          <option value="6">24</option>
+                          <option value="7">25</option>
+                          <option value="8">26</option>
+                          <option value="9">27</option>
+                          <option value="10">28</option>
+                          <option value="11">29</option>
+                          <option value="12">30</option>
+                          <option value="11">31</option>
+                          <option value="12">32</option>
+                          <option value="11">33</option>
+                          <option value="12">34</option>
+                          <option value="11">35</option>
+                          <option value="12">36</option>
+                          <option value="11">37</option>
+                          <option value="12">38</option>
+                          <option value="11">39</option>
+                          <option value="12">40</option>
+                          <option value="11">41</option>
+                          <option value="12">42</option>
+                          <option value="11">43</option>
+                          <option value="12">44</option>
+                          <option value="11">45</option>
+                          <option value="12">46</option>
+                          <option value="11">47</option>
+                          <option value="12">48</option>
+                          <option value="11">49</option>
+                          <option value="12">50</option>
+                        </select>
+                        <div id="emailHelp" class="form-text">Select your age.</div>
+                  </div>
+  
+                <div class="divider"></div>
+  
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Male
+                  </label> 
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Female
+                  </label> 
+              </div>
+          </div>
+  
+          <div class="divider"></div>
+  
+          <div class="input-group">
+              <span class="input-group-text">Home Address</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+  
+          <div class="divider"></div>
+  
+          <div class="submit-and-clear">
+              <button type="reset" class="btn btn-danger">Clear</button>
+              <button type="submit" class="btn btn-success">Submit</button>  
+          </div>
+        </form>
+  </div>
+
+    
+</div>
+
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top the-footer-two">
+    <div class="col-md-4 d-flex align-items-center footer-contents">
+          <span class="text-muted" style="color: white;">
+            <span>
+              <i class="fas fa-dice-d20 b-icon"></i></span> 
+            NOT-D&D-RELATED, © 2021.
+          </span>
+    </div>
+    
+    <div class="footer-button-row">
+      <span class="text-muted" style="color: white;">Contact Us</span>
+        <button type="button" class="btn btn-dark my-btn"><i class="fab fa-twitter"></i></button>
+        <button type="button" class="btn btn-dark my-btn"><i class="fab fa-facebook"></i></button>
+        <button type="button" class="btn btn-dark my-btn"><i class="far fa-envelope"></i></button>
+    </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/38aa5d1fbd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

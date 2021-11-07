@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.divider{
+    margin: 27px 0px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.the-nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+    margin-bottom: 5vh;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.a-icon{
+    color: lightcoral;
+    font-size: 2.2rem;
+    padding-right: 50px;
+}
+.nav-btn{
+    position: absolute;
+    right: 90px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    background-color: crimson;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+.nav-btn:hover{
+    color: crimson;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+.carousel-item{
+    width: 40%;
+    height: 100%;
+
+}
+.c-icon{
+    color: rgba(218, 165, 32, 0.829);
+}
+
+
+.main-body{
+    /* margin: 0 0 14vh 0; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+}
+.middle-body{
+    height: 78vh;
+    background: url("dark-decoration.svg");
+    background-size: 130vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -24px;
+}
+.form-text-1{
+    margin: 12vh 37vw 0vh 37vw;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+.forms{
+    margin: 0vh 29vw;
+}
+.age-and-gender{
+    display: flex;
+    justify-content: space-evenly;
+}
+.submit-and-clear{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0vh 3vw;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    word-spacing: 1.2;
+}
+.b-icon{
+    font-size: 2.2rem;
+}
+.footer-button-row{
+    margin: 12px 20px;
+}
+.footer-button-row button{
+    background: linear-gradient(360deg, #F26D93 , #F23D70 , #E60042); 
+    margin: 0px 5px;
+    padding: 3px 8px;
+    border-color: rgba(0, 0, 0, 0.24);
+    border-radius: 29px;
+}
+.footer-button-row button:hover{
+    background: white;
+    border-color: rgba(0, 0, 0, 0.24);
+    color: black;
+}
+
