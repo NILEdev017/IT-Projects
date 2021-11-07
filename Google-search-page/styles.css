@@ -1,0 +1,36 @@
+.button{
+    padding: 10px 17px;
+    border: 0px;
+    background-color: #f8f9fa;
+    font-family: arial,sans-serif;  
+    color: #3c4043;
+    
+}
+input[type=text]{
+    border:none;
+    outline: none;
+    text-align: left;
+    font-size: 15px;
+    font-family: ariel, sans-serif;
+}
+
+#input{
+    border-radius: 22px;
+    border: 1px solid #f8f9fa;
+    height: 35px;
+    width: 580px;
+}
+#input:hover{
+    border: 1px solid #caecf5;
+}
+/* .searchbar:{
+    border-style: none;
+} */
+
+.searchbar{
+    font-family: FontAwesome;
+    background-color: transparent;
+    height: 35px;
+    width: 500px;
+    text-align: center;
+}
